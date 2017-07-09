@@ -1,5 +1,9 @@
-# labclimate
-##API Endpoints
+labclimate
+==========
+
+API Endpoints
+---------------
+
 | Method | Endpoint                           | Usage                                          |
 |--------|------------------------------------|------------------------------------------------|
 | GET    | /get_config                        | Gets the client configuration from the server. |
