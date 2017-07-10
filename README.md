@@ -6,8 +6,8 @@ API Endpoints
 
 | Method | Endpoint         | Usage                                          |
 |--------|------------------|------------------------------------------------|
-| GET    | /get_config      | Gets the client configuration from the server. |
-| POST   | /submit_clim     | Submits climate data to the server.            |
+| GET    | /config          | Gets the client configuration from the server. |
+| POST   | /data            | Submits climate data to the server.            |
 | POST   | /nodes           | Adds a new node to the server.                 |
 | DELETE | /nodes/{id}      | Deletes a node from the server.                |
 | PUT    | /nodes/{id}      | Updates the location of a node on the server.  |
