@@ -22,10 +22,10 @@ time: {timestamp}
 
 ### nodes POST body:
 
-node_id: {id},
-node_location: {location}
+node_id: {node id},
+node_loc: {location}
 
 ### nodes/{id} PUT body:
 
-location: {location}
+node_loc: {location}
 
