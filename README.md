@@ -14,15 +14,15 @@ API Endpoints
 
 ### submit_clim POST body:
 
-node_id: {node id}
-temp: {temperature}
-humid: {humidity}
-air_qual: {air quality value}
+node_id: {node id},
+temp: {temperature},
+humid: {humidity},
+air_qual: {air quality value},
 time: {timestamp}
 
 ### nodes POST body:
 
-node_id: {id}
+node_id: {id},
 node_location: {location}
 
 ### nodes/{id} PUT body:
