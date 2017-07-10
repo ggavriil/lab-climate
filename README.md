@@ -12,7 +12,7 @@ API Endpoints
 | DELETE | /nodes/{id}      | Deletes a node from the server.                |
 | PUT    | /nodes/{id}      | Updates the location of a node on the server.  |
 
-###submit_clim POST body:
+### submit_clim POST body:
 
 node_id: {node id}
 temp: {temperature}
@@ -20,12 +20,12 @@ humid: {humidity}
 air_qual: {air quality value}
 time: {timestamp}
 
-###nodes POST body:
+### nodes POST body:
 
 node_id: {id}
 node_location: {location}
 
-###nodes/{id} PUT body:
+### nodes/{id} PUT body:
 
 location: {location}
 
