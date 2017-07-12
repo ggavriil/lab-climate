@@ -35,7 +35,7 @@ API Endpoints
 | PUT    | /nodes/{id}      | Updates the location of a node on the server.  |
 
 
-### GET /config response (*JSON*) **TODO**:
+### GET /config response (*JSON*) \*TODO\*:
 
 time\_interval: {\time_interval} (Time interval between submissions)
 
