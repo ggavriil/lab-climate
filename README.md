@@ -35,11 +35,11 @@ API Endpoints
 | PUT    | /nodes/{id}      | Updates the location of a node on the server.  |
 
 
-### /config GET response (*JSON*) **TODO**:
+### GET /config response (*JSON*) **TODO**:
 
 time\_interval: {\time_interval} (Time interval between submissions)
 
-### data/{id} POST body (*JSON*):
+### POST /data/{id} body (*JSON*):
 
 node\_id:    {node id} 
 
@@ -51,13 +51,13 @@ air\_qual:   {air quality value}
 
 timestamp:   {timestamp}
 
-### nodes POST body (*JSON*):
+### POST /nodes body (*JSON*):
 
 node\_id:       {node id}
 
 node\_location: {location}
 
-### nodes/{id} PUT body (*JSON*):
+### PUT /nodes/{id} body (*JSON*):
 
 node\_location: {location}
 
