@@ -37,7 +37,7 @@ API Endpoints
 
 ### GET /config response (*JSON*) \*TODO\*:
 
-time\_interval: {\time_interval} (Time interval between submissions)
+time\_interval: {time\_interval} (Time interval between submissions)
 
 ### POST /data/{id} body (*JSON*):
 
