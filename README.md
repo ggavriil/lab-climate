@@ -1,7 +1,7 @@
 labclimate
 ==========
 
-Database Table Description (Assuming Prostresql)
+Database Table Description (Assuming Postgresql)
 ------------------------------------------------
 
 ### **data** table:
